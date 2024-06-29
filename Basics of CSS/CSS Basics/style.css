@@ -1,0 +1,37 @@
+/* h1 {
+    color: darkcyan;
+}
+p {
+    border: 2px solid blue;
+} */
+ /* universal selector(not commonly used) */
+ /* * {
+    font-style: italic;
+ } */
+
+ /* class selector */
+
+/* id selector */
+/* #lorem-text1 {
+    font-weight: bold;
+} */
+header {
+/* width: 500px; */
+/* font-size: 32px; */
+ width: 400px;
+}
+ header h1 {
+    /* background-color: rgba(158, 0, 0,0.6); */
+    background-color: #234a873d;
+    background-color: hsl(200,40%, 80%);
+    width: 10rem; 
+    /* 50% of header width as header is the parent */
+}   
+img {
+    width: 10vw;
+}
+header img {
+    
+    width: 10%;
+    /* width will be same as 10vw  as header is taking full screen before 400px  */
+}

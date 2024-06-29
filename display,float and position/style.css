@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.red-border{
+    border:2px solid red;
+}
+p{
+    margin: 40px;
+    display: inline-block;
+    width: 400px;
+}
+.header-text{
+    background-color: burlywood;
+}
+a{
+    width: 400px;
+    display: inline-block;
+    /* give width to link */
+}
+img{
+    display: none;
+    /* delete the image  */ 
+    width: 400px;
+} 
